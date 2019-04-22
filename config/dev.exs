@@ -51,4 +51,7 @@ config :phoenix, :plug_init_mode, :runtime
 config :socializer, Socializer.Repo,
   database: "socializer_dev",
   hostname: "localhost",
+  username: "postgres",
+  password: "example",
+  port: 5433,
   pool_size: 10
